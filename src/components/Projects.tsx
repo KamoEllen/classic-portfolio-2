@@ -255,7 +255,7 @@ const ExperienceAndProjects = () => {
         <p className="text-lg text-gray-700">Math · Dancing · Reading · Hiking · Puzzles · Sports</p>
         
       </div>
-    </div>
+
   );
 };
 
