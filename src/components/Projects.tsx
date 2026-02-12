@@ -12,6 +12,7 @@ import inventoryImg from "@/assets/inventoryimg.png";
 import springImg from "@/assets/springImg.png";
 import projImg from "@/assets/projImg.png";
 import beyondbordersImg from "@/assets/beyondbordersImg.png";
+import certImg from "@/assets/certificates.png";
 
 const ExperienceAndProjects = () => {
   return (
@@ -191,6 +192,21 @@ const ExperienceAndProjects = () => {
   </div>
 
 </div>
+
+         <div className="mb-16">
+           <ProjectSection
+    id="certificates"
+    title="Certificates"
+    
+    year="2022-2025"
+    collaborators={[]}
+    paragraphs={[
+      "Learning",
+    ]}
+    images={[certImg]}
+    
+  />
+         </div>
 
       {/* Skills Section */}
       <div className="mb-16">
