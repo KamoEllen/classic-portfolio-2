@@ -193,19 +193,18 @@ const ExperienceAndProjects = () => {
 
 </div>
 
-         <div className="mb-16">
-           <ProjectSection
+    <div className="mb-16">
+  <ProjectSection
     id="certificates"
     title="Certificates"
-    
     year="2022-2025"
     collaborators={[]}
     paragraphs={[
-      "Learning",
+      `19 certifications across 3 years looks like a lot until you realize they're just receipts. Receipts for evenings, weekends, and "one more hour" until something clicked. UX. Frontend. Backend. Cloud. Each one started the same way: "I don't know this yet." Each one ended the same way: "Now I do." That's all they are—the most honest record I have of how I actually spend my time. Next one will be whatever I don't know yet. (Currently: AWS.)`,
     ]}
     images={[certImg]}
-    
   />
+</div>
          </div>
 
       {/* Skills Section */}
