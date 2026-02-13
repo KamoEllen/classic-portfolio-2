@@ -207,20 +207,7 @@ const ExperienceAndProjects = () => {
         />
       </div>
 
-       {/* Certificates Section */}
-      <div className="mb-16">
-        <ProjectSection
-          id="certificates"
-          title="Certificates"
-          year="2022-2025"
-          collaborators={[]}
-          paragraphs={[
-            "I’m just as comfortable solving linear algebra and winning a game of chess as I am on a basketball court or a skateboard. I find balance between the quiet of reading and playing piano and the energy of dancing and conventions. ",
-
-          ]}
-          images={[certImg]}
-        />
-      </div>
+      
 
       {/* Skills Section */}
       <div className="mb-16">
@@ -264,19 +251,24 @@ const ExperienceAndProjects = () => {
         </ul>
       </div>
 
-      {/* Beyond Code Section */}
+       {/* Beyond Code Section */}
       <div className="mb-16">
-        <h2 className="text-2xl font-bold mb-8">Beyond Code</h2>
         <ProjectSection
-            
-            collaborators={[]}
-            paragraphs={[
+          id="Beyond Code"
+          title="Beyond Code"
+     
+          collaborators={[]}
+         paragraphs={[
               "I’m just as comfortable solving linear algebra and winning a game of chess as I am on a basketball court or a skateboard. I find balance between the quiet of reading and playing piano and the energy of dancing and conventions. ",
             ]}
-            images={[beyondcodetImg]}
-            links={[]}
-          />
-        
+          images={[beyondcodetImg]}
+        />
+      </div>
+      
+      {/* Beyond Code Section */}
+      <div className="">
+      
+       
       </div>
     </div>
   );
